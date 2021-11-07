@@ -1,0 +1,1019 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+input[type="button"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding:0 0;
+	margin:0 0;
+}
+p{
+	padding:0 0;
+	margin:0 0;
+}
+ul{
+	padding:0 0;
+	margin:0 0;	
+}
+body{
+	padding:0 0;
+	margin:0 0; 
+	font-family: 'Open Sans', sans-serif;
+	
+	
+}
+.header{
+	background: url("../images/banner1.jpg") no-repeat;
+	background-size:cover;
+	min-height: 830px;
+}
+.logo{
+	width: 49%;
+	margin: 21em auto 0px;
+}
+.logo img {
+  width: 100%;
+}
+.logo a{
+	display: block;
+}
+.about-section{
+	background: url("../images/banner2.jpg") no-repeat;
+	background-size:cover;
+	min-height: 850px;
+	padding-top: 20em;
+	text-align: center;
+}
+.about-section h1 {
+	font-size: 4.3em;
+	color: #ff0000;
+	margin-bottom: 0.5em;
+	font-weight:400;
+	font-family: 'Bowlby One', cursive;
+}
+.about-section h2 {
+	font-size: 2.6em;
+	color: #000;
+	font-family: 'Bowlby One', cursive;
+	font-weight:400;
+	margin: 0.3em 0 0;
+}
+.about-section p {
+	font-size: 1.3em;
+	color: #000;
+	font-weight: 400;
+	line-height: 1.8em;
+}
+.services-section {
+	text-align: center;
+	padding: 8em 0 10em;
+	background: url("../images/banner3.jpg") no-repeat;
+	background-size:cover;
+	min-height: 885px;
+}
+.services-header{
+	padding: 0 0 7em 0;
+	
+}
+.services-header h3 {
+	font-size: 2.75em;
+	text-transform: capitalize;
+	font-weight:bold;
+	color: #000;
+	margin-bottom: 0.1em;
+	font-family: 'Bowlby One', cursive;
+}
+.services-header span{
+	color:#ff0000;
+}
+.services-header p {
+	font-size: 1.13em;
+	font-weight: 400;
+	color: #000;
+}
+.services-grid h3 {
+	font-size: 2em;
+	font-weight: 300;
+	color: #000;
+	padding: 0.5em 0 0.3em;
+}
+.services-grid p {
+	font-size: 1.13em;
+	font-weight: 400;
+	color: #999;
+  	margin: 0 3em;
+ 	line-height: 1.7em;
+}
+.tags-section{
+	background: url("../images/banner4.jpg") no-repeat;
+	background-size:cover;
+	min-height: 1028px;
+	padding-top: 15em;
+}
+.tags-section h5 {
+	font-size: 3.9em;
+  	color: #fff;
+  	font-weight: 400;
+  	font-family: 'Bowlby One', cursive;
+}
+.tags-section h4 {
+	font-size: 4.7em;
+  	color: #f1c40f;
+  	font-weight: 400;
+  	font-family: 'Bowlby One', cursive;
+}
+.tags-section h3 {
+	font-size: 6em;
+  	margin-bottom: 0.5em;
+  	color: #f1c40f;
+  	font-weight: 400;
+  	font-family: 'Bowlby One', cursive;
+}
+.tags-section p {
+	color: #fff;
+	font-size: 1.8em;
+	font-weight: 300;
+	padding: 0 14em 0 0;
+	line-height: 1.7em;
+}
+.ourwork-section{
+	background: url("../images/banner5.jpg") no-repeat;
+	background-size:cover;
+ 	min-height: 1805px;px;
+	padding-top: 14em;
+	text-align: center;
+}
+.ourwork-header {
+	margin-bottom: 10em;
+}
+.ourwork-header h3 {
+	font-size: 2.8em;
+	text-transform: capitalize;
+	font-family: 'Bowlby One', cursive;
+	font-weight:400;
+	color: #000;
+	margin-bottom: 0.1em;
+}
+.ourwork-header span{
+	color:#ff0000;
+}
+.ourwork-header p {
+	font-size: 1.13em;
+	font-weight: 400;
+	color: #000;
+	margin: 0 0 0 0.9em;
+
+}
+.ourwork-grid1 img {
+	padding-bottom:2em;
+	width:100%;
+}
+.team-section{
+	background: url("../images/banner6.jpg") no-repeat;
+	background-size:cover;
+ 	min-height: 795px;
+	padding-top: 9.1em;
+	text-align: center;
+}
+.team-header{
+	padding: 0 0 10em 0;
+	
+}
+.team-header h3 {
+	font-size:2.8em;
+	text-transform: capitalize;
+	font-weight:bold;
+	color: #fff;
+	margin-bottom: 0.1em;
+	font-family: 'Bowlby One', cursive;
+}
+.team-header span{
+	color:#00ff6c;
+}
+.team-header p {
+	font-size: 1.13em;
+	font-weight: 400;
+	color: #fff;
+}
+.team-grid h4 {
+	color: #fff;
+	font-size: 1.3em;
+	text-transform: capitalize;
+	margin: 0.7em 0 0.3em;
+  	font-weight: 700;;
+}
+.team-grid p {
+	color: #fff;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+.contact-section{
+	background: url("../images/banner7.jpg") no-repeat;
+	background-size:cover;
+ 	min-height: 800px;
+	padding-top: 10em;
+	text-align: center;
+}
+.contact-grid input[type="text"] {
+	width: 50%;
+	background: none;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid#f39c12;
+	font-size: 1.5em;
+	color: #d5d6d7;
+	text-transform: capitalize;
+	padding: 15px 0;
+}
+.contactgrid1 textarea {
+	width: 50%;
+	background: none;
+	outline: none;
+	border: none;
+	resize: none;
+	border-bottom: 1px solid#f39c12;
+	font-size: 1.5em;
+	color: #d5d6d7;
+	text-transform: capitalize;
+	padding: 10px 3px;
+	height: 15.8em;
+}
+.contactgrid1 input[type="button"] {
+	width: 50%;
+	color: #fff;
+	border: none;
+	font-size: 1.5em;
+	outline: none;
+	text-transform: uppercase;
+	padding: 1em 1em;
+	border: 1px solid#f39c12;
+	background:#f39c12;
+	margin-top: 2em;
+}
+.contactgrid1 input[type="button"]:hover {
+  background: red;
+}
+.footer-section {
+	background:#1f2a36;
+	text-align: center;
+	padding: 3em 0;
+}
+.footer-bottom p {
+	font-size: 17px;
+	color: #d5d6d7;
+	font-weight: 400;
+}
+.footer-top{
+	margin-bottom: 1em;
+}
+.footer-logo {
+  width: 100%;
+  margin: 0 auto;
+}
+.footer-bottom a {
+	font-size: 19px;
+	color: #f0c514;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.footer-bottom a:hover {
+	color: #d5d6d7;
+}
+.footer-bottom p a {
+	margin: 0 6px 0 6px;
+}
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	overflow: hidden;
+	width: 48px;
+	height: 48px;
+	border: none;
+	text-indent: 100%;
+	background: url("../images/to-top2.png") no-repeat 0px 0px;
+}
+
+
+		/*-- responsive-mediaquries --*/
+@media(max-width:1440px){
+	.logo {
+		margin: 11em auto 0px;
+	}
+	.header {
+		min-height: 735px;
+	}
+	.about-section {
+		min-height: 751px;
+	}
+	.services-section {
+		min-height: 785px;
+	}
+	.tags-section {
+		min-height: 917px;
+	}	
+	.ourwork-section {
+		min-height: 1642px;
+		padding-top: 11.5em;
+	}
+	.ourwork-header {
+		margin-bottom: 7em;
+	}
+	.ourwork-header p {
+		margin: 0 0 0 1.6em;
+	}
+	.team-section {
+		min-height: 700px;
+		padding-top: 6em;
+	}
+	.contact-section {
+		min-height: 690px;
+		padding-top: 3em;
+	}
+	.contactgrid1 input[type="button"] {
+		margin-top: 3em;
+	}
+}
+@media(max-width:1366px){
+	.logo {
+		margin: 16em auto 0px;
+	}
+	.header {
+		min-height: 705px;
+	}
+	.about-section {
+		min-height: 666px;
+		padding-top: 17em;
+	}
+	
+	.services-section {
+		min-height: 749px;
+	}
+	.tags-section {
+		min-height: 845px;
+	}
+	.ourwork-section {
+		min-height: 1573px;
+	}
+	.ourwork-header {
+		margin-bottom: 5em;
+	}
+	.team-section {
+		min-height: 664px;
+		padding-top: 6em;
+	}
+	.team-header {
+		padding: 0 0 8.5em 0;
+	}
+}
+@media(max-width:1280px){
+	.logo {
+  		margin: 15em auto 0px;
+	}
+	.header {
+		  min-height: 655px;
+	}
+	.services-section {
+  		min-height: 696px;
+  		padding: 5em 0 0em;
+	}
+	 .services-header h3 {
+		  font-size: 2.45em;
+		}
+	.services-header p {
+  		font-size: 1em;
+  	}
+	.services-header {
+		  padding: 0 0 5em 0;
+	}
+	.services-grid h3 {
+  		font-size: 1.8em;
+  	}
+  	.services-grid p {
+  		font-size: 1em;
+  	}
+	.tags-section {
+		  min-height: 810px;
+	}
+	.ourwork-section {
+		  min-height: 1490px;
+		  padding-top: 10.5em;
+	}
+	.ourwork-header h3 {
+  		font-size: 2.45em;
+  	}
+  	.ourwork-header p {
+  		font-size: 1em;
+  	}
+  	.team-section {
+		  min-height: 622px;
+		  padding-top: 5em;
+	}
+	.team-header h3 {
+ 		font-size: 2.45em;
+ 	}
+ 	.team-header p {
+  		font-size: 1em;
+  	}
+	.contact-section {
+		min-height: 612px;
+		padding-top: 2em;
+	}
+	.contactgrid1 textarea {
+ 		height: 12.8em;
+	}
+}
+@media(max-width:1024px){
+	.header {
+		  min-height: 526px;
+	}
+	.logo {
+  		margin: 11.5em auto 0px;
+	}
+	.about-section {
+ 	   min-height: 530px;
+       padding-top: 15em;
+	}
+	.about-section h1 {
+  		font-size: 3.5em;
+ 	}
+ 	.about-section h2 {
+  		font-size: 2.2em;
+  	}
+  	.about-section p {
+  		font-size: 1.1em;
+  	}
+  	.services-section {
+		 min-height: 560px;
+		 padding: 3em 0 0em;
+	}
+  	.services-header h3 {
+  		font-size: 2.2em;
+	}
+	.services-header p {
+		 font-size: 0.95em;
+	}
+	.services-grid h3 {
+  		font-size: 1.7em;
+	}
+	.services-grid p {
+ 		 font-size: 0.96em;
+	}
+	.tags-section {
+		 min-height: 653px;
+		 padding-top: 9em;
+	}
+	.tags-section h5 {
+  		font-size: 3em;
+  	}
+  	.tags-section h4 {
+  		font-size: 3.7em;
+  	}
+  	.tags-section h3 {
+  		font-size: 4.1em;
+  	}
+  	.tags-section p {
+  		font-size: 1.3em;
+		padding: 0 7em 0 0;
+	}
+	.ourwork-section {
+		  min-height: 1209px;
+		  padding-top: 8.5em;
+	}
+	.ourwork-header h3 {
+		  font-size: 2.2em;
+	}
+	.ourwork-header p {
+		  font-size: 0.95em;
+	}
+	.team-header h3 {
+		  font-size: 2.2em;
+	}
+	.team-header p {
+ 		 font-size: 0.95em;
+	}
+	.team-section {
+		min-height: 502px;
+		padding-top: 3em;
+	}
+	.team-header {
+  		padding: 0 0 4.5em 0;
+	}
+	.team-grid h4 {
+  		font-size: 1.2em;
+  	}
+  	.team-grid p {
+		font-size: 0.9em;
+	}
+	.contact-section {
+		 min-height: 496px;
+		 padding-top: 1.1em;
+	}
+	.contactgrid1 textarea {
+ 		 height: 9.8em;
+ 		 font-size: 1.4em;
+	}
+	.contactgrid1 input[type="button"] {
+		margin-top: 2.9em;
+		padding: 0.8em 0.8em;
+		font-size: 1.4em;
+	}
+	.contact-grid input[type="text"] {
+  		font-size: 1.4em;
+  	}
+	.footer-bottom p {
+ 		 font-size: 15px;
+ 	}
+ 	.footer-bottom a {
+  		font-size: 15px;
+  	}
+  }
+@media (max-width: 768px){
+	.logo {
+ 		margin: 8.5em auto 0px;
+ 	}
+ 	.header {
+ 	 	min-height: 394px;
+	}
+	.about-section {
+  		min-height: 388px;
+ 		padding-top: 10em;
+	}
+	.about-section h1 {
+  		font-size: 2em;
+  		line-height: 1.2em;
+	}
+	.about-section h2 {
+  		font-size: 1.55em;
+	}
+	.about-section p {
+  		font-size: 1em;
+	}
+	.services-section {
+ 		padding: 3em 0 1em;
+	}
+	.services-header h3 {
+  		font-size: 1.85em;
+	}
+	.services-header p {
+	  font-size: 0.9em;
+	}
+	.services-grid img {
+  		width: 15%;
+	}
+	.services-header {
+  		padding: 0 0 3em 0;
+	}
+	.services-grid {
+  		margin: 0 0 2em 0;
+  		padding: 0;
+	}
+	.services-grid h3 {
+  		font-size: 1.3em;
+	}
+	.services-grid p {
+  		font-size: 0.9em;
+	}
+	.tags-section h5 {
+  		font-size: 2em;
+  		line-height: 1.2em;
+	}
+	.tags-section h4 {
+  		font-size: 2.2em;
+  		line-height: 1.2em;
+	}
+	.tags-section h3 {
+  		font-size: 2.7em;
+  		line-height: 1.2em;
+	}
+	.tags-section {
+		  min-height: 488px;
+		  padding-top: 8em;
+	}
+	.tags-section p {
+ 		 font-size: 1em;
+ 		 padding: 0 20em 0 0;
+	}
+	.ourwork-grid {
+	  float: left;
+	  width: 30.3%;
+	  margin-right: 2%;
+	  padding: 0;
+	}
+	.ourwork-section {
+		  min-height: 1159px;
+		  padding-top: 3.5em;
+	}
+	.ourwork-header {
+		  margin-bottom: 3em;
+	}
+	.ourwork-header h3 {
+		 font-size: 1.8em;
+	}
+	.ourwork-header p {
+		 font-size: 0.9em;
+	}
+	.our-img {
+		 display: none;
+	}
+	.team-section {
+		min-height: 370px;
+		padding: 3em 0;
+	}
+	.team-grid img {
+  		width: 100%;
+	}
+	.team-grid {
+	 	 float: left;
+	  	width: 33.3%;
+	}
+	.team-header h3 {
+  		font-size: 1.8em;
+	}
+	.team-header p {
+  		font-size: 0.9em;
+	}
+	.team-header {
+	  padding: 0 0 3em 0;
+	}
+	.team-grid h4 {
+  		font-size: 1.1em;
+	}
+	.contact-section {
+		  min-height: 368px;
+		  padding-top: 1.1em;
+	}
+	.contact-grid input[type="text"] {
+		  font-size: 1.2em;
+		}
+	.contactgrid1 textarea {
+		  height: 7em;
+		  font-size: 1.2em;
+	}
+	.contactgrid1 input[type="button"] {
+		  margin-top: 2em;
+		  padding: 0.5em 0.5em;
+		  font-size: 1.3em;
+	}
+	.footer-section {
+  		padding: 2em 0;
+	}
+	.footer-logo img {
+ 		 width: 10%;
+	}
+@media (max-width: 640px){	
+	.logo {
+  		width: 49%;
+  		margin: 3em auto 0px;
+  	}
+  	.header {
+  		min-height: 325px;
+  	}
+  	.about-section {
+		  min-height: 335px;
+		  padding-top: 8em;
+	}
+	.about-section h1 {
+  		font-size: 1.5em;
+	}
+	.about-section h2 {
+ 		 font-size: 1.2em;
+	}
+	.about-section p {
+  		font-size: 0.9em;
+	}
+	.services-header h3 {
+  		font-size: 1.4em;
+  		letter-spacing: 2px;
+	}
+	.services-header p {
+ 		 font-size: 0.85em;
+	}
+	.services-grid h3 {
+  		font-size: 1.2em;
+	}
+	.services-grid p {
+  		font-size: 0.855em;
+	}
+	.ourwork-section {
+  		padding-top: 3em;
+  		min-height: 1010px;
+	}
+	.ourwork-header h3 {
+  		font-size: 1.4em;
+  		letter-spacing: 2px;
+	}
+	.ourwork-header p {
+ 		 font-size: 0.85em;
+	}
+	.tags-section {
+  		min-height: 404px;
+ 		 padding-top: 7em;
+	}
+	.tags-section h5 {
+  		font-size: 1.3em;
+	}
+	.tags-section h4 {
+  		font-size: 1.5em;
+	}
+	.tags-section h3 {
+  		font-size: 1.9em;
+	}
+	.tags-section p {
+	  	font-size: 0.9em;
+	  	padding: 0 17em 0 0;
+	}
+	.team-header h3 {
+	 	 font-size: 1.5em;
+	 	letter-spacing: 3px;
+	}
+	.team-header p {
+  		font-size: 0.85em;
+	}
+	.team-header {
+ 		 padding: 0 0 2em 0;
+	}
+	.team-grid h4 {
+  		font-size: 1em;
+	}
+	.contact-section {
+		 min-height: 300px;
+	}
+	.contact-grid input[type="text"] {
+  		padding: 10px 0;
+  		font-size: 1.1em;
+  	}
+  	.contactgrid1 input[type="button"] {
+		  margin-top: 1.5em;
+		  font-size: 1.2em;
+	}
+	.contactgrid1 textarea {
+		font-size: 1.1em;
+	}
+}
+@media (max-width: 480px){
+	.logo {
+		margin: 6em auto 0px;
+	}
+	.header {
+  		min-height: 243px;
+	}
+	.about-section {
+ 	 	min-height: 246px;
+  		padding-top: 7em;
+	}
+	.about-section h1 {
+ 		font-size: 1.3em;
+ 		margin-bottom: 0.3em;
+ 		line-height: 1.3em;
+ 	}
+ 	.about-section h2 {
+  		font-size: 1em;
+  		  line-height: 1.3em;
+	}
+	.about-section p {
+  		font-size: 0.8em;
+	}
+	 .services-header h3 {
+  		font-size: 1.2em;
+	}
+	.services-header {
+  		padding: 0 0 2em 0;
+	}
+	.services-grid h3 {
+ 		 font-size: 1.15em;
+	}
+	.services-grid img {
+  		width: 20%;
+	}
+	.tags-section {
+		min-height: 300px;
+		padding-top: 5em;
+	}
+	.tags-section h5 {
+ 		 font-size: 1.2em;
+ 		   line-height: 1.3em;
+	}
+	.tags-section h4 {
+ 		 font-size: 1.3em;
+ 		  line-height: 1.3em;
+	}
+	.tags-section h3 {
+		 font-size: 1.7em;
+		  line-height: 1.3em;
+	}
+	.tags-section p {
+		font-size: 0.9em;
+		padding: 0px 12em 0 0;
+		overflow: hidden;
+		height: 63px;
+	}
+	.ourwork-header {
+  		margin-bottom: 2em;
+	}
+	.ourwork-header h3 {
+  		font-size: 1.2em;
+  	}
+  	.ourwork-section {
+		 padding-top: 2em;
+	  min-height: 750px;
+	}
+	.ourwork-grid1 img {
+  		padding-bottom: 1em;
+  	}
+  	
+	.ourwork-grid:nth-of-type(3) {
+ 		 margin-right: 0;
+	}
+	.ourwork-grid {
+		 width: 31.3%;
+		  margin-right: 2%;
+		  padding: 0;
+	}
+	.ourwork-grid1 img {
+  		padding-bottom: 0.5em;
+  	}
+  	.team-section {
+		 min-height: 255px;
+		  padding: 2em 0;
+	}
+	.team-header {
+  		padding: 0 0 2em 0;
+	}
+	.team-header h3 {
+  		font-size: 1.2em;
+  	}
+	.team-grid h4 {
+ 		 font-size: 0.9em;
+	}
+	.team-grid p {
+  		font-size: 0.8em;
+	}
+	.contact-grid input[type="text"] {
+  		width: 100%;
+  		font-size: 1em;
+  	}
+  	.contactgrid1 textarea {
+ 		 width: 100%;
+ 		 font-size: 1em;
+ 		 height: 7.5em;
+ 	}
+	.contactgrid1 input[type="button"] {
+ 		 width: 100%;
+ 		 margin-top: 2.5em;
+ 		 font-size: 1em;
+	}
+  	.footer-logo img {
+  		width: 12%;
+	}
+	.footer-bottom p {
+  		font-size: 13px;
+	}
+	.footer-bottom a {
+  		font-size: 13px;
+	}
+@media (max-width: 320px){
+	.logo {
+	  	margin: 4em auto 0px;
+	}
+	.header {
+ 	 	min-height: 160px;
+	}
+	.about-section h1 {
+  		font-size: 1em;
+  	}
+  	.about-section h2 {
+	  	font-size: 0.79em;
+	  	line-height: 1.3em;
+	  	height: 15px;
+	  	overflow: hidden;
+	}
+	.about-section p {
+	 	font-size: 0.8em;
+		overflow: hidden;
+	 	height: 20px;
+	}
+	.about-section {
+		min-height: 160px;
+		padding-top: 3.5em;
+	}
+	.services-section {
+  		padding: 2em 0 1em;
+		 min-height: 490px;
+	}
+	.services-section {
+  		padding: 2em 0 1em;
+	}
+	
+	.services-header h3 {
+ 		 font-size: 1.1em;
+	}
+	.services-header p {
+ 		 font-size: 0.8em;
+	}
+	.services-grid h3 {
+  		font-size: 1em;
+	}
+	.services-header {
+ 		 padding: 0 0 1em 0;
+	}
+	.services-grid img {
+  		width: 25%;
+	}
+	.services-grid p {
+  		font-size: 0.8em;
+  		padding: 0;
+  	}
+	.tags-section {
+		min-height: 230px;
+		padding-top: 2em;
+	}
+	.tags-section h5 {
+  		font-size: 0.92em;
+  		line-height: 1.4em;
+  	}
+  	.tags-section h4 {
+	  	font-size: 1em;
+	  	line-height: 1.4em;
+	}
+	.tags-section h3 {
+	  	font-size: 1.3em;
+		line-height: 1.4em;
+	}
+	.tags-section p {
+		 font-size: 0.8em;
+		 padding: 0px 6em 0 0;
+		 overflow: hidden;
+		 height: 63px;
+	}
+	.ourwork-header {
+  		margin-bottom: 1em;
+	}
+	.ourwork-header h3 {
+  		font-size: 1.1em;
+	}
+	.ourwork-header p {
+  		font-size: 0.8em;
+	}
+	.ourwork-grid {
+	  	width: 47%;
+	 	margin-right: 3%;
+	}
+	.ourwork-section {
+  		padding-top: 1em;
+  		min-height: 660px;
+	}
+	.ourwork-grid:nth-of-type(3) {
+  		display: none;
+	}
+	.team-section {
+		 min-height: 180px;
+		padding: 2em 0;
+	}
+	.team-header h3 {
+  		font-size: 1.1em;
+	}
+	.team-header {
+		padding: 0 0 1em 0;
+	}
+	.team-section {
+		padding: 1em 0;
+	}
+	.team-header p {
+  		font-size: 0.8em;
+	}
+	.contactgrid1 textarea {
+  		height: 8.5em;
+	}
+	.contactgrid1 input[type="button"] {
+		margin-top: 1.5em;
+  	}
+	.footer-section {
+  		padding: 1em 0;
+	}
+	.footer-bottom p {
+  		font-size: 12px;
+	}
+	.footer-bottom p a {
+  		font-size: 12px;
+	}
+	
